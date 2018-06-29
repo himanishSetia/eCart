@@ -1,0 +1,68 @@
+<div class="store">
+    <div class="header">
+        <div class="row mr">
+            <div class="col-md-6 policyBazaar">Policy Bazaar : Store</div>
+            <div class="col-md-6 cart">
+                <div class="cartImg">
+                    <img class="" src="Images/favicon.ico" width="25" height="25" /> :
+                    <label class="cartNumber">{{cartCount}}</label>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    <div class="welcomeNote">
+        Welcome to the policybazaar store.
+        <br> Please select the product you want and add item to your shopping cart.
+        <br> When you are done. Click the shopping cart icon to review your order and checkout.
+    </div>
+    <div class="row">
+        <div class="col-md-3 form-group">
+            <label class="ftrt">Search : </label>
+        </div>
+        <div class="col-md-3 form-group">
+            <input type="search" class="form-control" ng-model="search" placeholder="Enter name of product to search" ng-keyup="searchProducts()"
+            />
+        </div>
+    </div>
+    <div class="dashboard">
+
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th style="width: 25%;">Image</th>
+                    <th style="width: 25%;">Product Name</th>
+                    <th style="width: 25%;">Price</th>
+                    <th style="width: 25%;">Action</th>
+                </tr>
+            </thead>
+            <tbody ng-show="products.length !='0'" ng-repeat="data in products track by $index">
+
+                <tr>
+                    <td>
+                        <div class="wordW">
+                            <img src="{{data.image}}" width="50" height="50">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="user-ellip">{{data.name}}</div>
+                    </td>
+                    <td>{{data.Price}} Rs.</td>
+                    <td>
+                        <button class="btn btn-success" ng-click=addToCart(data.name)>Add To Cart</button>
+                    </td>
+                </tr>
+
+
+            </tbody>
+            <tbody ng-show="products.length =='0'">
+                <tr>
+                    <td colspan="4" align="center">
+                        <div class="noRecords">No Products Found.</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

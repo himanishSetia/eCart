@@ -1,0 +1,72 @@
+<div class="registerForm boxShadow">
+    <!-- <form name="register"> -->
+
+    <div class="row">
+        <div class="col-md-12 form-group">
+            <img src="Images/register.png" />
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="offset-md-3 col-md-6 form-group">
+            <input type="text" class="form-control" ng-model="name" placeholder="Enter your name">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="offset-md-3 col-md-6 form-group">
+            <input type="text" class="form-control" ng-model="username" placeholder="Enter your email">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="offset-md-3 col-md-6 form-group">
+            <input type="date" class="form-control" ng-model="dob" placeholder="Select Date of Birth">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="offset-md-3 col-md-6 form-group">
+            <input type="password" class="form-control" ng-model="password" placeholder="Enter your password">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="offset-md-3 col-md-6 form-group">
+            <input type="password" class="form-control" ng-model="rePassword" placeholder="Re-enter your password">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="offset-md-3 col-md-6 form-group">
+            <input type="text" class="form-control" ng-model="address" placeholder="Enter your Address">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="offset-md-3 col-md-6 form-group">
+            <select class="form-control" aria-placeholder="Select your gender" ng-model="gender" ng-options="item.name for item in genderList">
+                <option value="">Select your gender</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="offset-md-3 col-md-6 form-group">
+            <input type="number" class="form-control" ng-model="age" placeholder="Enter your Age">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="offset-md-3 col-md-6">
+            <button class="btn btn-success wd100 mrbt10 boxShadow" ng-click="registerUser()">Register</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="offset-md-3 col-md-6">
+            <button class="btn wd100 boxShadow" ng-click="back()">Back</button>
+        </div>
+    </div>
+    <!-- </form> -->
+</div>

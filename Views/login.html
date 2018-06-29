@@ -1,0 +1,35 @@
+<div class="loginBox boxShadow">
+    <div class="pdtp75 psrl">
+        <form name="login">
+
+            <div class="row">
+                <div class="col-md-12 outer">
+                    <button class="btn btn-primary inner" ng-click="register()">Register</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 form-group outer">
+                    <label class="loginLabel">Username</label>
+                    <input type="email" name="username" ng-model="username" class="form-control inner txtbx" placeholder="Enter username">
+                    <p ng-hide="login.username.$valid">Please enter valid email</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 form-group outer">
+                    <label class="loginLabel">Password</label>
+                    <input type="password" class="form-control inner txtbx" name="password" ng-model="password" placeholder="Enter password"
+                        required>
+                    <p ng-show="login.password.$touched && login.password.$invalid">Please enter password</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 outer">
+                    <button class="btn btn-success inner" ng-click="loginECart()">Login</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
