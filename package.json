@@ -1,0 +1,19 @@
+{
+  "name": "ecart",
+  "version": "1.0.0",
+  "description": "You have to host this page somewhere for proper functioning of Angular Routing",
+  "main": "server.js",
+  "scripts": {
+    "test": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanishsetiashephertz/eCart.git"
+  },
+  "author": "Himanish Setia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanishsetiashephertz/eCart/issues"
+  },
+  "homepage": "https://github.com/himanishsetiashephertz/eCart#readme"
+}
