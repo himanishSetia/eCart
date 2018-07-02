@@ -1,6 +1,7 @@
-You have to host this page somewhere for proper functioning of Angular Routing
 
-Requirements : XAMPP Server
+Requirements : NodeJS
 
-1. Extract the folder into C://xampp/htdocs
-2. Open chrome browser and hit this URL : http://localhost/eCart
+1. Extract the folder
+2. Redirect to the folder using CMD and then type "npm install".
+3. After successfully installation use "npm start" command.
+2. Open chrome browser and hit this URL : http://localhost:8080
