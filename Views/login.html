@@ -1,10 +1,16 @@
 <div class="loginBox boxShadow">
-    <div class="pdtp75 psrl">
+    <div class="pdtp10 psrl">
         <form name="login">
+            <div class="row">
+                <div class="col-md-12 outer">
+                    <!-- <img src="Images/bazaar.jpg" width="100" height="20" /> -->
+                </div>
+            </div>
+
 
             <div class="row">
                 <div class="col-md-12 outer">
-                    <button class="btn btn-primary inner" ng-click="register()">Register</button>
+                    <button class="btn btn-danger regBtn" ng-click="register()">Register</button>
                 </div>
             </div>
 
@@ -17,7 +23,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-12 form-group outer">
+                <div class="col-md-12 form-group outerPwd">
                     <label class="loginLabel">Password</label>
                     <input type="password" class="form-control inner txtbx" name="password" ng-model="password" placeholder="Enter password"
                         required>
@@ -26,8 +32,13 @@
             </div>
 
             <div class="row">
-                <div class="col-md-12 outer">
-                    <button class="btn btn-success inner" ng-click="loginECart()">Login</button>
+                <div class="col-md-12 outerPwd">
+                    <button class="btn btn-success loginBtn" ng-click="loginECart()">Login</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 badge">
+                    <img src="Images/satisfaction.png" width="150" height="125"/>
                 </div>
             </div>
         </form>

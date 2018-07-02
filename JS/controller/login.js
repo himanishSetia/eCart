@@ -127,6 +127,18 @@ eCart.controller('registerController', function ($scope, $location,Notification)
                 noError = false 
             }
 
+            function validateEmail(email) {
+                var re = /^.*(?=.{4,10})(?=.*\d)(?=.*[a-zA-Z]).*$/;
+                return re.test(String(email).toLowerCase());
+            }
+            var passCheck = validateEmail($scope.password);
+            if(!passCheck){
+                Notification.error({
+                    message: "Your password must contain atleast one Capital letter, one small letter and one number.", 
+                    delay: 3000
+                });
+                noError = false 
+            }
             return noError
         }
 

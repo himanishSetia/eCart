@@ -1,51 +1,28 @@
 
 
-.loginBox{background:#a3a3a3;width: 360px;height: 370px;
-        right: 0;
-        position: absolute;
-        margin: 60px 40px 0 0;}
-
+.loginBox{background:#5d3554;width: 360px;height: 100%;right: 0;position: absolute;border-radius: 1%;margin: 0px 15px 0 0;}
 .loginLabel{text-align: center;}
-.pdtp75{    padding-top: 75px;}
-.txtbx{    width: 80% !important;margin-left: 40px;}
-    .psrl{position: relative;}
-
-    .inner{
-        width:285px;
-        text-align: center;}
-
-        .outer{
-            margin-top: 20px;
-            text-align: center;}
-.registerForm{  margin: 0 auto;
-    max-width: 700px;
-    /* height: 100%; */
-    background-color: #ccc;
-    border-radius: 3px;}
-    .wd100{width: 100%;}
-    .mrbt10{margin-bottom: 10px;}
-    .boxShadow{    box-shadow: 0px 0px 12px #b2b2b2;}
-    .dashboard{    margin: 0 auto;
-        max-width: 700px;
-        background-color: #ccc;
-        border-radius: 3px;}
-        .store
-        {border-style: solid;
-            margin: 15px 15px 0 15px;}
-            .policyBazaar{    font-family: fantasy;
-                padding-left: 60px !important;
-                font-size: 32px;}
-                .mr{margin: 30px 0px 30px 30px;}
-
-                .cartImg{    float: right;
-                    margin-right: 100px;}
-
-                    .cartNumber{    font-weight: bold;
-                        height: 30px;
-                        width: 30px;
-                        background: #00807a;
-                        border-radius: 50%;
-                        padding: 2px 27px 0 10px;}
-                        .welcomeNote{font-family: inherit;    padding-left: 25px;}
-
-                        .ftrt{float: right;    line-height: 32px;}
+.pdtp10{padding-top: 10px;}
+.txtbx{width: 80% !important;margin-left: 40px;}
+.psrl{position: relative;}
+.inner{width:285px;text-align: center;}
+.loginBtn{border-radius: 20px !important;width: 285px;text-align: center;}
+.regBtn{border-radius: 20px !important;width: 285px;text-align: center}
+.outer{margin-top: 20px;text-align: center;}
+.outerPwd{text-align: center;}
+.registerForm{  margin: 0 auto;max-width: 700px;background-color: #544865;border-radius: 3px;}
+.wd100{width: 100%;}
+.mrbt10{margin-bottom: 10px;}
+.boxShadow{box-shadow: 0px 0px 12px #b2b2b2;}
+.dashboard{margin: 0 auto;max-width: 700px;background-color: #ccc;border-radius: 3px;}
+.store{border-style: solid;margin: 15px 15px 0 15px;border-color:white}
+.policyBazaar{font-family: fantasy;padding-left: 60px !important;font-size: 32px;}
+.mr{margin: 30px 0px 30px 30px;color: white;}
+.cartImg{float: right;margin-right: 100px;width: 80px;height: 80px;background: #6a2b7a;padding-top: 23px;border-radius: 10px;}
+.cartNumber{font-weight: bold;height: 30px;width: 30px;background: #00807a;border-radius: 50%;padding: 2px 27px 0 10px;}
+.welcomeNote{font-family: inherit;padding-left: 25px;color: white;}
+.ftrt{float: right;    line-height: 32px;color: white;}
+.outer label{color: white;}
+.outerPwd label{color: white;}
+.badge{margin-top: 100px;}
+.mrbt20{margin-bottom: 20px;}
